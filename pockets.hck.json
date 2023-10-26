@@ -1,0 +1,221 @@
+{
+    "modelName": "Pocket",
+    "collections": [
+        {
+            "collectionName": "pockets",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "_id",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "objectId",
+                    "GUID": "3ce10fe5-ee59-4933-8a71-bff2812e8c7b",
+                    "code": "_id",
+                    "required": true,
+                    "error": {}
+                },
+                {
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "string",
+                    "GUID": "20daf9a5-3dd4-4a49-9e4d-9b5e101f3dd4",
+                    "name": "pocket_id",
+                    "code": "pocket_id",
+                    "encrypt": false,
+                    "required": true,
+                    "primaryKey": true,
+                    "encryptionOptions": {
+                        "GUID": "0b49dd92-d363-4809-ac84-cf21a86f13d5",
+                        "algorithm": "random"
+                    },
+                    "error": {}
+                },
+                {
+                    "name": "accounts",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "array",
+                    "properties": [
+                        {
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "document",
+                            "properties": [
+                                {
+                                    "name": "accountNumber",
+                                    "hackoladeMeta": {},
+                                    "isActivated": true,
+                                    "type": "string",
+                                    "GUID": "c5c5980b-41af-45ad-bd67-c25fdc5f9369",
+                                    "error": {}
+                                }
+                            ],
+                            "additionalProperties": false,
+                            "GUID": "5c79d20a-0ab0-4f47-b1f2-ebff3a62f089",
+                            "arrayItem": true,
+                            "primaryKey": false,
+                            "name": "New Field",
+                            "foreignCollection": "cdf104dc-93d3-4495-821e-4203f04e288b",
+                            "error": {}
+                        }
+                    ],
+                    "additionalItems": true,
+                    "GUID": "016045f5-ae0e-4d81-8dae-cfdfe335a3cf",
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "ccb8ff51-2ca4-471a-956e-111d9756aa40"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "validationLevel": "Moderate",
+            "validationAction": "Warn",
+            "storageEngineName": "WiredTiger",
+            "collectionUsers": [],
+            "indexes": [],
+            "collation": {},
+            "sharding": {
+                "unique": true,
+                "collation": "null"
+            },
+            "GUID": "cdf104dc-93d3-4495-821e-4203f04e288b",
+            "bucketId": "8b17953d-cba5-4689-b6b6-590ac2890212"
+        }
+    ],
+    "buckets": [
+        {
+            "name": "pocket",
+            "type": "bucket",
+            "collectionIds": [
+                "cdf104dc-93d3-4495-821e-4203f04e288b"
+            ],
+            "backgroundColor": {
+                "r": 216,
+                "g": 0,
+                "b": 115,
+                "a": 1
+            },
+            "show": true,
+            "isActivated": true,
+            "GUID": "8b17953d-cba5-4689-b6b6-590ac2890212",
+            "code": "pocket_db"
+        }
+    ],
+    "views": [],
+    "relationships": [],
+    "users": [],
+    "diagramViews": [],
+    "idToNameHashTable": {
+        "8b17953d-cba5-4689-b6b6-590ac2890212": "pocket",
+        "cdf104dc-93d3-4495-821e-4203f04e288b": "pockets",
+        "3ce10fe5-ee59-4933-8a71-bff2812e8c7b": "_id",
+        "20daf9a5-3dd4-4a49-9e4d-9b5e101f3dd4": "pocket_id",
+        "016045f5-ae0e-4d81-8dae-cfdfe335a3cf": "accounts",
+        "5c79d20a-0ab0-4f47-b1f2-ebff3a62f089": "New Field",
+        "c5c5980b-41af-45ad-bd67-c25fdc5f9369": "accountNumber"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "6cc87e5b-b228-497b-be26-0b4f0bfeedb0"
+    },
+    "polyglotDefinitions": {
+        "type": "polyglotDefinitions",
+        "properties": [],
+        "GUID": "1db694f1-f5bd-4175-abb5-641c4f8ad9c3"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "2d652d36-4be7-48f2-aa7c-c93167d5ded4"
+    },
+    "sources": [],
+    "decorativeSymbols": [],
+    "dbVersion": "v6.0",
+    "dbVendor": "MongoDB",
+    "appTarget": "MONGODB",
+    "creationTS": "2023-10-26T02:52:09.110Z",
+    "GUID": "e2d9eefb-845f-4267-9080-a7e70a14c62a",
+    "isLineageEnabled": false,
+    "hackoladeMeta": {
+        "validationErrors": {
+            "code": false
+        }
+    },
+    "code": "Pocket",
+    "lastModifTS": "2023-10-26T04:40:57.834Z",
+    "persistenceSchemaVersion": "6",
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "6.11.6"
+    },
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "cdf104dc-93d3-4495-821e-4203f04e288b",
+                        "x": 1080,
+                        "y": 1080,
+                        "width": 270,
+                        "height": 224,
+                        "color": {}
+                    }
+                ],
+                "erdDefinitions": {
+                    "erd": [],
+                    "rootPath": [],
+                    "entities": [],
+                    "decorativeSymbols": []
+                },
+                "buckets": [
+                    {
+                        "x": 1040,
+                        "y": 1040,
+                        "GUID": "8b17953d-cba5-4689-b6b6-590ac2890212"
+                    }
+                ],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [],
+                    "buckets": [],
+                    "decorativeSymbols": [],
+                    "forceLayout": true,
+                    "defaultLinkLength": 300
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": [
+                    {
+                        "autoWidth": false,
+                        "autoHeight": false,
+                        "GUID": "cdf104dc-93d3-4495-821e-4203f04e288b"
+                    }
+                ],
+                "relationshipUpdateDisabled": false,
+                "displayOptions": {}
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "shouldDistributeCollections": false
+        }
+    }
+}
