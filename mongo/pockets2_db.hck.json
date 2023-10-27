@@ -6,16 +6,6 @@
             "type": "object",
             "properties": [
                 {
-                    "name": "_id",
-                    "hackoladeMeta": {},
-                    "isActivated": true,
-                    "type": "objectId",
-                    "GUID": "3ce10fe5-ee59-4933-8a71-bff2812e8c7b",
-                    "code": "_id",
-                    "required": true,
-                    "error": {}
-                },
-                {
                     "hackoladeMeta": {},
                     "isActivated": true,
                     "type": "string",
@@ -55,7 +45,7 @@
                             "GUID": "5c79d20a-0ab0-4f47-b1f2-ebff3a62f089",
                             "arrayItem": true,
                             "primaryKey": false,
-                            "name": "New Field",
+                            "name": "accounts",
                             "foreignCollection": "cdf104dc-93d3-4495-821e-4203f04e288b",
                             "error": {}
                         }
@@ -144,10 +134,11 @@
     "hackoladeMeta": {
         "validationErrors": {
             "code": false
-        }
+        },
+        "customPropertiesUpdated": true
     },
     "code": "Pocket",
-    "lastModifTS": "2023-10-26T04:40:57.834Z",
+    "lastModifTS": "2023-10-27T05:28:57.936Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {

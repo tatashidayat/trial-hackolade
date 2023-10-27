@@ -1,0 +1,1305 @@
+{
+    "modelName": "New Model",
+    "collections": [
+        {
+            "collectionName": "comparisonModelCollection",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "containers",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "document",
+                    "properties": [
+                        {
+                            "name": "added",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "array",
+                            "properties": [],
+                            "additionalItems": true,
+                            "color": "#555555",
+                            "GUID": "cf1e617a-97df-4865-b082-fbe949998d7c"
+                        },
+                        {
+                            "name": "deleted",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "array",
+                            "properties": [],
+                            "additionalItems": true,
+                            "color": "#555555",
+                            "GUID": "03f76d9f-ba02-4bec-aeb7-5e40446e3ae3"
+                        },
+                        {
+                            "name": "modified",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "array",
+                            "properties": [],
+                            "additionalItems": true,
+                            "color": "#555555",
+                            "GUID": "5dddf4bb-05ca-4bd8-b4db-919d2c18eb85"
+                        }
+                    ],
+                    "additionalProperties": false,
+                    "color": "#555555",
+                    "GUID": "128ed816-4184-47a4-a4b2-efb75230f93e"
+                },
+                {
+                    "name": "entities",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "document",
+                    "properties": [
+                        {
+                            "name": "added",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "array",
+                            "properties": [],
+                            "additionalItems": true,
+                            "color": "#555555",
+                            "GUID": "f26e4862-bee6-4296-8d73-ce34b87a498c"
+                        },
+                        {
+                            "name": "deleted",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "array",
+                            "properties": [
+                                {
+                                    "hackoladeMeta": {},
+                                    "isActivated": true,
+                                    "type": "document",
+                                    "properties": [
+                                        {
+                                            "name": "pockets",
+                                            "hackoladeMeta": {},
+                                            "isActivated": true,
+                                            "type": "document",
+                                            "properties": [
+                                                {
+                                                    "name": "_id",
+                                                    "hackoladeMeta": {},
+                                                    "isActivated": true,
+                                                    "type": "objectId",
+                                                    "GUID": "3ce10fe5-ee59-4933-8a71-bff2812e8c7b",
+                                                    "code": "_id",
+                                                    "required": true,
+                                                    "error": {}
+                                                }
+                                            ],
+                                            "additionalProperties": false,
+                                            "color": "#555555",
+                                            "GUID": "32ab1a1b-9638-4736-92f2-650c6647769c",
+                                            "role": {
+                                                "collectionName": "pockets",
+                                                "type": "object",
+                                                "properties": [
+                                                    {
+                                                        "name": "_id",
+                                                        "hackoladeMeta": {},
+                                                        "isActivated": true,
+                                                        "type": "objectId",
+                                                        "GUID": "3ce10fe5-ee59-4933-8a71-bff2812e8c7b",
+                                                        "code": "_id",
+                                                        "required": true,
+                                                        "error": {}
+                                                    },
+                                                    {
+                                                        "hackoladeMeta": {},
+                                                        "isActivated": true,
+                                                        "type": "string",
+                                                        "GUID": "20daf9a5-3dd4-4a49-9e4d-9b5e101f3dd4",
+                                                        "name": "pocket_id",
+                                                        "code": "pocket_id",
+                                                        "encrypt": false,
+                                                        "required": true,
+                                                        "primaryKey": true,
+                                                        "encryptionOptions": {
+                                                            "GUID": "0b49dd92-d363-4809-ac84-cf21a86f13d5",
+                                                            "algorithm": "random"
+                                                        },
+                                                        "isRealm": true,
+                                                        "error": {},
+                                                        "compMod": {
+                                                            "oldField": {
+                                                                "name": "pocket_id",
+                                                                "type": "string"
+                                                            },
+                                                            "newField": {
+                                                                "name": "pocket_id",
+                                                                "type": "string"
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "accounts",
+                                                        "hackoladeMeta": {},
+                                                        "isActivated": true,
+                                                        "type": "array",
+                                                        "properties": [
+                                                            {
+                                                                "hackoladeMeta": {},
+                                                                "isActivated": true,
+                                                                "type": "document",
+                                                                "properties": [
+                                                                    {
+                                                                        "name": "accountNumber",
+                                                                        "hackoladeMeta": {},
+                                                                        "isActivated": true,
+                                                                        "type": "string",
+                                                                        "GUID": "c5c5980b-41af-45ad-bd67-c25fdc5f9369",
+                                                                        "isRealm": true,
+                                                                        "error": {},
+                                                                        "compMod": {
+                                                                            "oldField": {
+                                                                                "name": "accountNumber",
+                                                                                "type": "string"
+                                                                            },
+                                                                            "newField": {
+                                                                                "name": "accountNumber",
+                                                                                "type": "string"
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                ],
+                                                                "additionalProperties": false,
+                                                                "GUID": "5c79d20a-0ab0-4f47-b1f2-ebff3a62f089",
+                                                                "arrayItem": true,
+                                                                "primaryKey": false,
+                                                                "name": "New Field",
+                                                                "foreignCollection": "cdf104dc-93d3-4495-821e-4203f04e288b",
+                                                                "error": {},
+                                                                "compMod": {
+                                                                    "oldField": {
+                                                                        "name": "New Field",
+                                                                        "type": "document",
+                                                                        "properties": [
+                                                                            {
+                                                                                "name": "accountNumber",
+                                                                                "type": "string"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "newField": {
+                                                                        "name": "accounts",
+                                                                        "type": "document",
+                                                                        "properties": [
+                                                                            {
+                                                                                "name": "accountNumber",
+                                                                                "type": "string"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                }
+                                                            }
+                                                        ],
+                                                        "additionalItems": true,
+                                                        "GUID": "016045f5-ae0e-4d81-8dae-cfdfe335a3cf",
+                                                        "isRealm": true,
+                                                        "error": {},
+                                                        "compMod": {
+                                                            "oldField": {
+                                                                "name": "accounts",
+                                                                "type": "array",
+                                                                "items": [
+                                                                    {
+                                                                        "name": "New Field",
+                                                                        "type": "document",
+                                                                        "properties": [
+                                                                            {
+                                                                                "name": "accountNumber",
+                                                                                "type": "string"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "newField": {
+                                                                "name": "accounts",
+                                                                "type": "array",
+                                                                "items": [
+                                                                    {
+                                                                        "name": "accounts",
+                                                                        "type": "document",
+                                                                        "properties": [
+                                                                            {
+                                                                                "name": "accountNumber",
+                                                                                "type": "string"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            }
+                                                        }
+                                                    }
+                                                ],
+                                                "definitions": {
+                                                    "type": "definitions",
+                                                    "properties": [],
+                                                    "GUID": "ccb8ff51-2ca4-471a-956e-111d9756aa40"
+                                                },
+                                                "isActivated": true,
+                                                "additionalProperties": true,
+                                                "validationLevel": "Moderate",
+                                                "validationAction": "Warn",
+                                                "storageEngineName": "WiredTiger",
+                                                "collectionUsers": [],
+                                                "indexes": [],
+                                                "collation": {},
+                                                "sharding": {
+                                                    "unique": true,
+                                                    "collation": "null"
+                                                },
+                                                "GUID": "cdf104dc-93d3-4495-821e-4203f04e288b",
+                                                "bucketId": "8b17953d-cba5-4689-b6b6-590ac2890212",
+                                                "error": {},
+                                                "compMod": {
+                                                    "keyspaceName": "pocket_db",
+                                                    "bucketProperties": {
+                                                        "name": "pocket",
+                                                        "isActivated": true,
+                                                        "code": "pocket_db"
+                                                    },
+                                                    "collectionName": {
+                                                        "new": "pockets",
+                                                        "old": "pockets"
+                                                    },
+                                                    "isActivated": {
+                                                        "new": true,
+                                                        "old": true
+                                                    },
+                                                    "bucketId": {
+                                                        "new": "b17de9e5-f9b0-4c4c-a6e1-19d2577474f2",
+                                                        "old": "8b17953d-cba5-4689-b6b6-590ac2890212"
+                                                    },
+                                                    "storageEngineName": {
+                                                        "new": "WiredTiger",
+                                                        "old": "WiredTiger"
+                                                    },
+                                                    "validationLevel": {
+                                                        "new": "Moderate",
+                                                        "old": "Moderate"
+                                                    },
+                                                    "validationAction": {
+                                                        "new": "Warn",
+                                                        "old": "Warn"
+                                                    },
+                                                    "additionalProperties": {
+                                                        "new": false,
+                                                        "old": true
+                                                    },
+                                                    "collectionUsers": {
+                                                        "new": [],
+                                                        "old": []
+                                                    },
+                                                    "indexes": {
+                                                        "new": [],
+                                                        "old": []
+                                                    },
+                                                    "sharding": {
+                                                        "new": {
+                                                            "unique": true,
+                                                            "collation": "null"
+                                                        },
+                                                        "old": {
+                                                            "unique": true,
+                                                            "collation": "null"
+                                                        }
+                                                    },
+                                                    "oldIdToNameHashTable": {
+                                                        "cdf104dc-93d3-4495-821e-4203f04e288b": "pockets",
+                                                        "3ce10fe5-ee59-4933-8a71-bff2812e8c7b": "_id",
+                                                        "20daf9a5-3dd4-4a49-9e4d-9b5e101f3dd4": "pocket_id",
+                                                        "016045f5-ae0e-4d81-8dae-cfdfe335a3cf": "accounts",
+                                                        "5c79d20a-0ab0-4f47-b1f2-ebff3a62f089": "New Field",
+                                                        "c5c5980b-41af-45ad-bd67-c25fdc5f9369": "accountNumber"
+                                                    },
+                                                    "newIdToNameHashTable": {
+                                                        "5c010ba5-1a54-4a7d-8b5d-83a28e582f70": "pockets",
+                                                        "3bfd8b29-acf9-49e2-8c3d-c7cffd6cd816": "pocket_id",
+                                                        "cd187646-9710-44f1-89e9-0f8746bb7773": "accounts",
+                                                        "beeecde5-faed-4a06-89ea-77d393af00a0": "accounts",
+                                                        "da2b3dd3-5bbd-49d8-ae2a-17f4492cc4b1": "accountNumber"
+                                                    },
+                                                    "newProperties": [
+                                                        {
+                                                            "hackoladeMeta": {},
+                                                            "isActivated": true,
+                                                            "type": "string",
+                                                            "GUID": "3bfd8b29-acf9-49e2-8c3d-c7cffd6cd816",
+                                                            "name": "pocket_id",
+                                                            "code": "pocket_id",
+                                                            "encrypt": false,
+                                                            "required": true,
+                                                            "primaryKey": true,
+                                                            "encryptionOptions": {
+                                                                "GUID": "0b49dd92-d363-4809-ac84-cf21a86f13d5",
+                                                                "algorithm": "random"
+                                                            },
+                                                            "error": {},
+                                                            "compMod": {
+                                                                "oldField": {
+                                                                    "name": "pocket_id",
+                                                                    "type": "string"
+                                                                },
+                                                                "newField": {
+                                                                    "name": "pocket_id",
+                                                                    "type": "string"
+                                                                }
+                                                            }
+                                                        },
+                                                        {
+                                                            "name": "accounts",
+                                                            "hackoladeMeta": {},
+                                                            "isActivated": true,
+                                                            "type": "array",
+                                                            "properties": [
+                                                                {
+                                                                    "hackoladeMeta": {},
+                                                                    "isActivated": true,
+                                                                    "type": "document",
+                                                                    "properties": [
+                                                                        {
+                                                                            "name": "accountNumber",
+                                                                            "hackoladeMeta": {},
+                                                                            "isActivated": true,
+                                                                            "type": "string",
+                                                                            "GUID": "da2b3dd3-5bbd-49d8-ae2a-17f4492cc4b1",
+                                                                            "error": {},
+                                                                            "compMod": {
+                                                                                "oldField": {
+                                                                                    "name": "accountNumber",
+                                                                                    "type": "string"
+                                                                                },
+                                                                                "newField": {
+                                                                                    "name": "accountNumber",
+                                                                                    "type": "string"
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    ],
+                                                                    "additionalProperties": false,
+                                                                    "GUID": "beeecde5-faed-4a06-89ea-77d393af00a0",
+                                                                    "arrayItem": true,
+                                                                    "primaryKey": false,
+                                                                    "name": "accounts",
+                                                                    "foreignCollection": "5c010ba5-1a54-4a7d-8b5d-83a28e582f70",
+                                                                    "error": {},
+                                                                    "compMod": {
+                                                                        "oldField": {
+                                                                            "name": "New Field",
+                                                                            "type": "document",
+                                                                            "properties": [
+                                                                                {
+                                                                                    "name": "accountNumber",
+                                                                                    "type": "string"
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        "newField": {
+                                                                            "name": "accounts",
+                                                                            "type": "document",
+                                                                            "properties": [
+                                                                                {
+                                                                                    "name": "accountNumber",
+                                                                                    "type": "string"
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    }
+                                                                }
+                                                            ],
+                                                            "additionalItems": true,
+                                                            "GUID": "cd187646-9710-44f1-89e9-0f8746bb7773",
+                                                            "error": {},
+                                                            "compMod": {
+                                                                "oldField": {
+                                                                    "name": "accounts",
+                                                                    "type": "array",
+                                                                    "items": [
+                                                                        {
+                                                                            "name": "New Field",
+                                                                            "type": "document",
+                                                                            "properties": [
+                                                                                {
+                                                                                    "name": "accountNumber",
+                                                                                    "type": "string"
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "newField": {
+                                                                    "name": "accounts",
+                                                                    "type": "array",
+                                                                    "items": [
+                                                                        {
+                                                                            "name": "accounts",
+                                                                            "type": "document",
+                                                                            "properties": [
+                                                                                {
+                                                                                    "name": "accountNumber",
+                                                                                    "type": "string"
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            }
+                                                        }
+                                                    ]
+                                                },
+                                                "name": "pockets",
+                                                "roleType": "entity"
+                                            }
+                                        }
+                                    ],
+                                    "additionalProperties": false,
+                                    "color": "#555555",
+                                    "GUID": "a39db2e8-6020-4f85-9887-23b56f3b8ba1",
+                                    "arrayItem": true
+                                }
+                            ],
+                            "additionalItems": true,
+                            "color": "#555555",
+                            "GUID": "21df325c-a7b1-47ca-8bd5-1dac9edde640"
+                        },
+                        {
+                            "name": "modified",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "array",
+                            "properties": [
+                                {
+                                    "hackoladeMeta": {},
+                                    "isActivated": true,
+                                    "type": "document",
+                                    "properties": [
+                                        {
+                                            "name": "pockets",
+                                            "hackoladeMeta": {},
+                                            "isActivated": true,
+                                            "type": "document",
+                                            "properties": [
+                                                {
+                                                    "hackoladeMeta": {},
+                                                    "isActivated": true,
+                                                    "type": "string",
+                                                    "GUID": "3bfd8b29-acf9-49e2-8c3d-c7cffd6cd816",
+                                                    "name": "pocket_id",
+                                                    "code": "pocket_id",
+                                                    "encrypt": false,
+                                                    "required": true,
+                                                    "primaryKey": true,
+                                                    "encryptionOptions": {
+                                                        "GUID": "0b49dd92-d363-4809-ac84-cf21a86f13d5",
+                                                        "algorithm": "random"
+                                                    },
+                                                    "error": {},
+                                                    "compMod": {
+                                                        "oldField": {
+                                                            "name": "pocket_id",
+                                                            "type": "string"
+                                                        },
+                                                        "newField": {
+                                                            "name": "pocket_id",
+                                                            "type": "string"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "name": "accounts",
+                                                    "hackoladeMeta": {},
+                                                    "isActivated": true,
+                                                    "type": "array",
+                                                    "properties": [
+                                                        {
+                                                            "hackoladeMeta": {},
+                                                            "isActivated": true,
+                                                            "type": "document",
+                                                            "properties": [
+                                                                {
+                                                                    "name": "accountNumber",
+                                                                    "hackoladeMeta": {},
+                                                                    "isActivated": true,
+                                                                    "type": "string",
+                                                                    "GUID": "da2b3dd3-5bbd-49d8-ae2a-17f4492cc4b1",
+                                                                    "error": {},
+                                                                    "compMod": {
+                                                                        "oldField": {
+                                                                            "name": "accountNumber",
+                                                                            "type": "string"
+                                                                        },
+                                                                        "newField": {
+                                                                            "name": "accountNumber",
+                                                                            "type": "string"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            ],
+                                                            "additionalProperties": false,
+                                                            "GUID": "beeecde5-faed-4a06-89ea-77d393af00a0",
+                                                            "arrayItem": true,
+                                                            "primaryKey": false,
+                                                            "name": "accounts",
+                                                            "foreignCollection": "5c010ba5-1a54-4a7d-8b5d-83a28e582f70",
+                                                            "error": {},
+                                                            "compMod": {
+                                                                "oldField": {
+                                                                    "name": "New Field",
+                                                                    "type": "document",
+                                                                    "properties": [
+                                                                        {
+                                                                            "name": "accountNumber",
+                                                                            "type": "string"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "newField": {
+                                                                    "name": "accounts",
+                                                                    "type": "document",
+                                                                    "properties": [
+                                                                        {
+                                                                            "name": "accountNumber",
+                                                                            "type": "string"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            }
+                                                        }
+                                                    ],
+                                                    "additionalItems": true,
+                                                    "GUID": "cd187646-9710-44f1-89e9-0f8746bb7773",
+                                                    "error": {},
+                                                    "compMod": {
+                                                        "oldField": {
+                                                            "name": "accounts",
+                                                            "type": "array",
+                                                            "items": [
+                                                                {
+                                                                    "name": "New Field",
+                                                                    "type": "document",
+                                                                    "properties": [
+                                                                        {
+                                                                            "name": "accountNumber",
+                                                                            "type": "string"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        "newField": {
+                                                            "name": "accounts",
+                                                            "type": "array",
+                                                            "items": [
+                                                                {
+                                                                    "name": "accounts",
+                                                                    "type": "document",
+                                                                    "properties": [
+                                                                        {
+                                                                            "name": "accountNumber",
+                                                                            "type": "string"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                }
+                                            ],
+                                            "additionalProperties": false,
+                                            "color": "#555555",
+                                            "GUID": "d580f716-1c4f-48e0-ac6e-71a1d32259f6",
+                                            "role": {
+                                                "collectionName": "pockets",
+                                                "type": "object",
+                                                "properties": [
+                                                    {
+                                                        "name": "_id",
+                                                        "hackoladeMeta": {},
+                                                        "isActivated": true,
+                                                        "type": "objectId",
+                                                        "GUID": "3ce10fe5-ee59-4933-8a71-bff2812e8c7b",
+                                                        "code": "_id",
+                                                        "required": true,
+                                                        "error": {}
+                                                    },
+                                                    {
+                                                        "hackoladeMeta": {},
+                                                        "isActivated": true,
+                                                        "type": "string",
+                                                        "GUID": "20daf9a5-3dd4-4a49-9e4d-9b5e101f3dd4",
+                                                        "name": "pocket_id",
+                                                        "code": "pocket_id",
+                                                        "encrypt": false,
+                                                        "required": true,
+                                                        "primaryKey": true,
+                                                        "encryptionOptions": {
+                                                            "GUID": "0b49dd92-d363-4809-ac84-cf21a86f13d5",
+                                                            "algorithm": "random"
+                                                        },
+                                                        "isRealm": true,
+                                                        "error": {},
+                                                        "compMod": {
+                                                            "oldField": {
+                                                                "name": "pocket_id",
+                                                                "type": "string"
+                                                            },
+                                                            "newField": {
+                                                                "name": "pocket_id",
+                                                                "type": "string"
+                                                            }
+                                                        }
+                                                    },
+                                                    {
+                                                        "name": "accounts",
+                                                        "hackoladeMeta": {},
+                                                        "isActivated": true,
+                                                        "type": "array",
+                                                        "properties": [
+                                                            {
+                                                                "hackoladeMeta": {},
+                                                                "isActivated": true,
+                                                                "type": "document",
+                                                                "properties": [
+                                                                    {
+                                                                        "name": "accountNumber",
+                                                                        "hackoladeMeta": {},
+                                                                        "isActivated": true,
+                                                                        "type": "string",
+                                                                        "GUID": "c5c5980b-41af-45ad-bd67-c25fdc5f9369",
+                                                                        "isRealm": true,
+                                                                        "error": {},
+                                                                        "compMod": {
+                                                                            "oldField": {
+                                                                                "name": "accountNumber",
+                                                                                "type": "string"
+                                                                            },
+                                                                            "newField": {
+                                                                                "name": "accountNumber",
+                                                                                "type": "string"
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                ],
+                                                                "additionalProperties": false,
+                                                                "GUID": "5c79d20a-0ab0-4f47-b1f2-ebff3a62f089",
+                                                                "arrayItem": true,
+                                                                "primaryKey": false,
+                                                                "name": "New Field",
+                                                                "foreignCollection": "cdf104dc-93d3-4495-821e-4203f04e288b",
+                                                                "error": {},
+                                                                "compMod": {
+                                                                    "oldField": {
+                                                                        "name": "New Field",
+                                                                        "type": "document",
+                                                                        "properties": [
+                                                                            {
+                                                                                "name": "accountNumber",
+                                                                                "type": "string"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "newField": {
+                                                                        "name": "accounts",
+                                                                        "type": "document",
+                                                                        "properties": [
+                                                                            {
+                                                                                "name": "accountNumber",
+                                                                                "type": "string"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                }
+                                                            }
+                                                        ],
+                                                        "additionalItems": true,
+                                                        "GUID": "016045f5-ae0e-4d81-8dae-cfdfe335a3cf",
+                                                        "isRealm": true,
+                                                        "error": {},
+                                                        "compMod": {
+                                                            "oldField": {
+                                                                "name": "accounts",
+                                                                "type": "array",
+                                                                "items": [
+                                                                    {
+                                                                        "name": "New Field",
+                                                                        "type": "document",
+                                                                        "properties": [
+                                                                            {
+                                                                                "name": "accountNumber",
+                                                                                "type": "string"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "newField": {
+                                                                "name": "accounts",
+                                                                "type": "array",
+                                                                "items": [
+                                                                    {
+                                                                        "name": "accounts",
+                                                                        "type": "document",
+                                                                        "properties": [
+                                                                            {
+                                                                                "name": "accountNumber",
+                                                                                "type": "string"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            }
+                                                        }
+                                                    }
+                                                ],
+                                                "definitions": {
+                                                    "type": "definitions",
+                                                    "properties": [],
+                                                    "GUID": "ccb8ff51-2ca4-471a-956e-111d9756aa40"
+                                                },
+                                                "isActivated": true,
+                                                "additionalProperties": true,
+                                                "validationLevel": "Moderate",
+                                                "validationAction": "Warn",
+                                                "storageEngineName": "WiredTiger",
+                                                "collectionUsers": [],
+                                                "indexes": [],
+                                                "collation": {},
+                                                "sharding": {
+                                                    "unique": true,
+                                                    "collation": "null"
+                                                },
+                                                "GUID": "cdf104dc-93d3-4495-821e-4203f04e288b",
+                                                "bucketId": "8b17953d-cba5-4689-b6b6-590ac2890212",
+                                                "error": {},
+                                                "compMod": {
+                                                    "keyspaceName": "pocket_db",
+                                                    "bucketProperties": {
+                                                        "name": "pocket",
+                                                        "isActivated": true,
+                                                        "code": "pocket_db"
+                                                    },
+                                                    "collectionName": {
+                                                        "new": "pockets",
+                                                        "old": "pockets"
+                                                    },
+                                                    "isActivated": {
+                                                        "new": true,
+                                                        "old": true
+                                                    },
+                                                    "bucketId": {
+                                                        "new": "b17de9e5-f9b0-4c4c-a6e1-19d2577474f2",
+                                                        "old": "8b17953d-cba5-4689-b6b6-590ac2890212"
+                                                    },
+                                                    "storageEngineName": {
+                                                        "new": "WiredTiger",
+                                                        "old": "WiredTiger"
+                                                    },
+                                                    "validationLevel": {
+                                                        "new": "Moderate",
+                                                        "old": "Moderate"
+                                                    },
+                                                    "validationAction": {
+                                                        "new": "Warn",
+                                                        "old": "Warn"
+                                                    },
+                                                    "additionalProperties": {
+                                                        "new": false,
+                                                        "old": true
+                                                    },
+                                                    "collectionUsers": {
+                                                        "new": [],
+                                                        "old": []
+                                                    },
+                                                    "indexes": {
+                                                        "new": [],
+                                                        "old": []
+                                                    },
+                                                    "sharding": {
+                                                        "new": {
+                                                            "unique": true,
+                                                            "collation": "null"
+                                                        },
+                                                        "old": {
+                                                            "unique": true,
+                                                            "collation": "null"
+                                                        }
+                                                    },
+                                                    "oldIdToNameHashTable": {
+                                                        "cdf104dc-93d3-4495-821e-4203f04e288b": "pockets",
+                                                        "3ce10fe5-ee59-4933-8a71-bff2812e8c7b": "_id",
+                                                        "20daf9a5-3dd4-4a49-9e4d-9b5e101f3dd4": "pocket_id",
+                                                        "016045f5-ae0e-4d81-8dae-cfdfe335a3cf": "accounts",
+                                                        "5c79d20a-0ab0-4f47-b1f2-ebff3a62f089": "New Field",
+                                                        "c5c5980b-41af-45ad-bd67-c25fdc5f9369": "accountNumber"
+                                                    },
+                                                    "newIdToNameHashTable": {
+                                                        "5c010ba5-1a54-4a7d-8b5d-83a28e582f70": "pockets",
+                                                        "3bfd8b29-acf9-49e2-8c3d-c7cffd6cd816": "pocket_id",
+                                                        "cd187646-9710-44f1-89e9-0f8746bb7773": "accounts",
+                                                        "beeecde5-faed-4a06-89ea-77d393af00a0": "accounts",
+                                                        "da2b3dd3-5bbd-49d8-ae2a-17f4492cc4b1": "accountNumber"
+                                                    },
+                                                    "newProperties": [
+                                                        {
+                                                            "hackoladeMeta": {},
+                                                            "isActivated": true,
+                                                            "type": "string",
+                                                            "GUID": "3bfd8b29-acf9-49e2-8c3d-c7cffd6cd816",
+                                                            "name": "pocket_id",
+                                                            "code": "pocket_id",
+                                                            "encrypt": false,
+                                                            "required": true,
+                                                            "primaryKey": true,
+                                                            "encryptionOptions": {
+                                                                "GUID": "0b49dd92-d363-4809-ac84-cf21a86f13d5",
+                                                                "algorithm": "random"
+                                                            },
+                                                            "error": {},
+                                                            "compMod": {
+                                                                "oldField": {
+                                                                    "name": "pocket_id",
+                                                                    "type": "string"
+                                                                },
+                                                                "newField": {
+                                                                    "name": "pocket_id",
+                                                                    "type": "string"
+                                                                }
+                                                            }
+                                                        },
+                                                        {
+                                                            "name": "accounts",
+                                                            "hackoladeMeta": {},
+                                                            "isActivated": true,
+                                                            "type": "array",
+                                                            "properties": [
+                                                                {
+                                                                    "hackoladeMeta": {},
+                                                                    "isActivated": true,
+                                                                    "type": "document",
+                                                                    "properties": [
+                                                                        {
+                                                                            "name": "accountNumber",
+                                                                            "hackoladeMeta": {},
+                                                                            "isActivated": true,
+                                                                            "type": "string",
+                                                                            "GUID": "da2b3dd3-5bbd-49d8-ae2a-17f4492cc4b1",
+                                                                            "error": {},
+                                                                            "compMod": {
+                                                                                "oldField": {
+                                                                                    "name": "accountNumber",
+                                                                                    "type": "string"
+                                                                                },
+                                                                                "newField": {
+                                                                                    "name": "accountNumber",
+                                                                                    "type": "string"
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    ],
+                                                                    "additionalProperties": false,
+                                                                    "GUID": "beeecde5-faed-4a06-89ea-77d393af00a0",
+                                                                    "arrayItem": true,
+                                                                    "primaryKey": false,
+                                                                    "name": "accounts",
+                                                                    "foreignCollection": "5c010ba5-1a54-4a7d-8b5d-83a28e582f70",
+                                                                    "error": {},
+                                                                    "compMod": {
+                                                                        "oldField": {
+                                                                            "name": "New Field",
+                                                                            "type": "document",
+                                                                            "properties": [
+                                                                                {
+                                                                                    "name": "accountNumber",
+                                                                                    "type": "string"
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        "newField": {
+                                                                            "name": "accounts",
+                                                                            "type": "document",
+                                                                            "properties": [
+                                                                                {
+                                                                                    "name": "accountNumber",
+                                                                                    "type": "string"
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    }
+                                                                }
+                                                            ],
+                                                            "additionalItems": true,
+                                                            "GUID": "cd187646-9710-44f1-89e9-0f8746bb7773",
+                                                            "error": {},
+                                                            "compMod": {
+                                                                "oldField": {
+                                                                    "name": "accounts",
+                                                                    "type": "array",
+                                                                    "items": [
+                                                                        {
+                                                                            "name": "New Field",
+                                                                            "type": "document",
+                                                                            "properties": [
+                                                                                {
+                                                                                    "name": "accountNumber",
+                                                                                    "type": "string"
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "newField": {
+                                                                    "name": "accounts",
+                                                                    "type": "array",
+                                                                    "items": [
+                                                                        {
+                                                                            "name": "accounts",
+                                                                            "type": "document",
+                                                                            "properties": [
+                                                                                {
+                                                                                    "name": "accountNumber",
+                                                                                    "type": "string"
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            }
+                                                        }
+                                                    ]
+                                                },
+                                                "name": "pockets",
+                                                "roleType": "entity"
+                                            }
+                                        }
+                                    ],
+                                    "additionalProperties": false,
+                                    "color": "#555555",
+                                    "GUID": "b6ad4ec0-fbe1-4ebc-bbb3-d77ea1179abc",
+                                    "arrayItem": true
+                                }
+                            ],
+                            "additionalItems": true,
+                            "color": "#555555",
+                            "GUID": "1cd8d169-9e3f-4c4c-8ffe-0b25b16cebda"
+                        }
+                    ],
+                    "additionalProperties": false,
+                    "color": "#555555",
+                    "GUID": "3246795a-a5e0-493e-abb5-5bc0b7e5d947"
+                },
+                {
+                    "name": "relationships",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "document",
+                    "properties": [
+                        {
+                            "name": "added",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "array",
+                            "properties": [],
+                            "additionalItems": true,
+                            "color": "#555555",
+                            "GUID": "016164fa-30f7-4ec3-880d-3c43654a69fb"
+                        },
+                        {
+                            "name": "deleted",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "array",
+                            "properties": [],
+                            "additionalItems": true,
+                            "color": "#555555",
+                            "GUID": "dca82cfe-039d-4106-8641-aaa8097a1abe"
+                        },
+                        {
+                            "name": "modified",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "array",
+                            "properties": [],
+                            "additionalItems": true,
+                            "color": "#555555",
+                            "GUID": "b7fd02e7-4df4-4c52-b78c-2e3be6ed83bf"
+                        }
+                    ],
+                    "additionalProperties": false,
+                    "color": "#555555",
+                    "GUID": "5e866641-53a7-4658-9515-82df94fd2d1a"
+                },
+                {
+                    "name": "views",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "document",
+                    "properties": [
+                        {
+                            "name": "added",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "array",
+                            "properties": [],
+                            "additionalItems": true,
+                            "color": "#555555",
+                            "GUID": "92e14648-03c4-45c5-9ecc-b64c5a174bb9"
+                        },
+                        {
+                            "name": "deleted",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "array",
+                            "properties": [],
+                            "additionalItems": true,
+                            "color": "#555555",
+                            "GUID": "fcac1892-52d2-4f31-bf32-588c1e96f00c"
+                        },
+                        {
+                            "name": "modified",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "array",
+                            "properties": [],
+                            "additionalItems": true,
+                            "color": "#555555",
+                            "GUID": "71bead2a-618f-4243-9296-a4f8b49657bb"
+                        }
+                    ],
+                    "additionalProperties": false,
+                    "color": "#555555",
+                    "GUID": "6da19853-c664-4109-8769-253a996620c6"
+                },
+                {
+                    "name": "modelDefinitions",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "document",
+                    "properties": [
+                        {
+                            "name": "added",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "array",
+                            "properties": [],
+                            "additionalItems": true,
+                            "color": "#555555",
+                            "GUID": "b9d3b1d3-53e7-4e9e-a6d7-0365517dceca"
+                        },
+                        {
+                            "name": "deleted",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "array",
+                            "properties": [
+                                {
+                                    "hackoladeMeta": {},
+                                    "isActivated": true,
+                                    "type": "document",
+                                    "properties": [
+                                        {
+                                            "name": "id",
+                                            "hackoladeMeta": {},
+                                            "isActivated": true,
+                                            "type": "document",
+                                            "additionalProperties": false,
+                                            "color": "#555555",
+                                            "GUID": "ea7b3965-e58d-4c21-ac18-687de933e707",
+                                            "compMod": {
+                                                "created": false,
+                                                "deleted": true
+                                            },
+                                            "role": {
+                                                "name": "id",
+                                                "hackoladeMeta": {},
+                                                "isActivated": true,
+                                                "type": "string",
+                                                "color": "#555555",
+                                                "GUID": "b0f6ef94-9716-46af-9425-125961c10a12",
+                                                "definitionRefs": [],
+                                                "isRealm": true,
+                                                "error": {},
+                                                "compMod": {
+                                                    "created": false,
+                                                    "deleted": true
+                                                },
+                                                "roleType": "definition"
+                                            }
+                                        }
+                                    ],
+                                    "additionalProperties": false,
+                                    "color": "#555555",
+                                    "GUID": "85d20593-9eb1-4615-9ab6-a33fd04decaa",
+                                    "arrayItem": true
+                                }
+                            ],
+                            "additionalItems": true,
+                            "color": "#555555",
+                            "GUID": "185dc4bd-4b10-4660-8a2b-6346fcaf619f"
+                        },
+                        {
+                            "name": "modified",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "array",
+                            "properties": [],
+                            "additionalItems": true,
+                            "color": "#555555",
+                            "GUID": "964b2ed3-9661-4a69-b59f-505fe783f540"
+                        }
+                    ],
+                    "additionalProperties": false,
+                    "color": "#555555",
+                    "GUID": "81512077-3fa3-46ca-994b-53f8787e4f73"
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "4c2ff3ac-7970-4ade-bdbc-034c69897272"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "validationLevel": "Off",
+            "validationAction": "Warn",
+            "storageEngineName": "WiredTiger",
+            "collectionUsers": [],
+            "indexes": [],
+            "collation": {},
+            "sharding": {
+                "unique": true,
+                "collation": "null"
+            },
+            "GUID": "66259271-f439-42aa-a427-e1ad6f659d75"
+        }
+    ],
+    "buckets": [],
+    "views": [],
+    "relationships": [],
+    "users": [],
+    "diagramViews": [],
+    "idToNameHashTable": {
+        "cf1e617a-97df-4865-b082-fbe949998d7c": "added",
+        "03f76d9f-ba02-4bec-aeb7-5e40446e3ae3": "deleted",
+        "5dddf4bb-05ca-4bd8-b4db-919d2c18eb85": "modified",
+        "8b17953d-cba5-4689-b6b6-590ac2890212": "pocket",
+        "b17de9e5-f9b0-4c4c-a6e1-19d2577474f2": "pocket",
+        "f26e4862-bee6-4296-8d73-ce34b87a498c": "added",
+        "21df325c-a7b1-47ca-8bd5-1dac9edde640": "deleted",
+        "1cd8d169-9e3f-4c4c-8ffe-0b25b16cebda": "modified",
+        "cdf104dc-93d3-4495-821e-4203f04e288b": "pockets",
+        "5c010ba5-1a54-4a7d-8b5d-83a28e582f70": "pockets",
+        "3ce10fe5-ee59-4933-8a71-bff2812e8c7b": "_id",
+        "3bfd8b29-acf9-49e2-8c3d-c7cffd6cd816": "pocket_id",
+        "cd187646-9710-44f1-89e9-0f8746bb7773": "accounts",
+        "beeecde5-faed-4a06-89ea-77d393af00a0": "accounts",
+        "da2b3dd3-5bbd-49d8-ae2a-17f4492cc4b1": "accountNumber",
+        "32ab1a1b-9638-4736-92f2-650c6647769c": "pockets",
+        "d580f716-1c4f-48e0-ac6e-71a1d32259f6": "pockets",
+        "016164fa-30f7-4ec3-880d-3c43654a69fb": "added",
+        "dca82cfe-039d-4106-8641-aaa8097a1abe": "deleted",
+        "b7fd02e7-4df4-4c52-b78c-2e3be6ed83bf": "modified",
+        "92e14648-03c4-45c5-9ecc-b64c5a174bb9": "added",
+        "fcac1892-52d2-4f31-bf32-588c1e96f00c": "deleted",
+        "71bead2a-618f-4243-9296-a4f8b49657bb": "modified",
+        "b9d3b1d3-53e7-4e9e-a6d7-0365517dceca": "added",
+        "185dc4bd-4b10-4660-8a2b-6346fcaf619f": "deleted",
+        "964b2ed3-9661-4a69-b59f-505fe783f540": "modified",
+        "b0f6ef94-9716-46af-9425-125961c10a12": "id",
+        "ea7b3965-e58d-4c21-ac18-687de933e707": "id",
+        "66259271-f439-42aa-a427-e1ad6f659d75": "comparisonModelCollection",
+        "128ed816-4184-47a4-a4b2-efb75230f93e": "containers",
+        "3246795a-a5e0-493e-abb5-5bc0b7e5d947": "entities",
+        "5e866641-53a7-4658-9515-82df94fd2d1a": "relationships",
+        "6da19853-c664-4109-8769-253a996620c6": "views",
+        "81512077-3fa3-46ca-994b-53f8787e4f73": "modelDefinitions"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "6cc87e5b-b228-497b-be26-0b4f0bfeedb0"
+    },
+    "polyglotDefinitions": {
+        "type": "polyglotDefinitions",
+        "properties": [],
+        "GUID": "f114d7ac-d60f-470f-b40d-16e8bddf1324"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "2d652d36-4be7-48f2-aa7c-c93167d5ded4"
+    },
+    "sources": [],
+    "decorativeSymbols": [],
+    "dbVersion": "v6.0",
+    "dbVendor": "MongoDB",
+    "appTarget": "MONGODB",
+    "creationTS": "2023-10-27T07:43:13.701Z",
+    "GUID": "41b9d2a3-b3f5-4add-a04b-d0f58c6776dc",
+    "compMode": true,
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginEngineVersion": "1.0.0"
+    },
+    "lastModifTS": "2023-10-27T07:43:13.715Z",
+    "persistenceSchemaVersion": "6",
+    "applicationInformation": {
+        "version": "6.11.6"
+    },
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "66259271-f439-42aa-a427-e1ad6f659d75",
+                        "x": 50,
+                        "y": 50,
+                        "width": 200,
+                        "height": 100,
+                        "color": {}
+                    }
+                ],
+                "erdDefinitions": {
+                    "erd": [],
+                    "rootPath": [],
+                    "entities": [],
+                    "decorativeSymbols": []
+                },
+                "buckets": [],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [],
+                    "buckets": [],
+                    "decorativeSymbols": [],
+                    "forceLayout": true,
+                    "defaultLinkLength": 300
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": [],
+                "relationshipUpdateDisabled": false
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "shouldDistributeCollections": false
+        }
+    },
+    "hackoladeMeta": {
+        "customPropertiesUpdated": true
+    }
+}

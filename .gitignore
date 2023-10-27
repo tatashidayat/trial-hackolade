@@ -1,0 +1,9 @@
+*
+
+!hackolade/
+!hackolade/**
+!mongo/
+!mongo/**
+!diff.sh
+!.gitignore
+!delta.json
